@@ -1,0 +1,1 @@
+docker rm -f ub1604-nvm-node-base-server || true
