@@ -4,20 +4,20 @@
 ubuntu 16.04 node 基础镜像
 
 #### 软件架构
-软件架构说明
+这是一个使用 nvm 安装了 node(14.16) 的 ubuntu 16.04 的基础镜像，内嵌了基础的 apt 包。
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  cd ub1604-nvm-node-base 
+2.  ./build-docker.sh
+3.  docker images 查看镜像(qiushaocloud/ub1604-nvm-node-base)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  DockerFile 文件引入此镜像
+2.  docker-compose 单独使用此镜像
+3.  docker run 单独运行此镜像
 
 #### 参与贡献
 
@@ -27,11 +27,10 @@ ubuntu 16.04 node 基础镜像
 4.  新建 Pull Request
 
 
-#### 特技
+#### 分享者信息
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 分享者邮箱: qiushaocloud@126.com
+2. [分享者网站](https://www.qiushaocloud.top)
+3. [分享者自己搭建的 gitlab](https://www.qiushaocloud.top/gitlab) 
+3. [分享者 gitee](https://gitee.com/qiushaocloud/dashboard/projects) 
+3. [分享者 github](https://github.com/qiushaocloud?tab=repositories) 

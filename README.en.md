@@ -1,36 +1,36 @@
 # ub1604-nvm-node-base
 
-#### Description
-ubuntu 16.04 node 基础镜像
+#### introduce
+ubuntu 16.04 node base image
 
 #### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+This is a basic image of ubuntu 16.04 with node(14.16) installed using nvm, and the basic apt package is embedded.
 
 
-#### Gitee Feature
+#### Installation tutorial
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. cd ub1604-nvm-node-base
+2. ./build-docker.sh
+3. docker images view image (qiushaocloud/ub1604-nvm-node-base)
+
+#### Instructions for use
+
+1. DockerFile file to import this image
+2. docker-compose uses this image alone
+3. docker run runs this image separately
+
+#### Participate in Contribution
+
+1. Fork this warehouse
+2. Create new Feat_xxx branch
+3. Submit the code
+4. New Pull Request
+
+
+#### Sharer information
+
+1. Sharer's email: qiushaocloud@126.com
+2. [Sharer's website](https://www.qiushaocloud.top)
+3. [gitlab built by the sharer](https://www.qiushaocloud.top/gitlab)
+3. [Sharer gitee](https://gitee.com/qiushaocloud/dashboard/projects)
+3. [Sharer github](https://github.com/qiushaocloud?tab=repositories)
