@@ -1,11 +1,7 @@
 # ub1604-nvm-node-base
 
 #### introduce
-ubuntu 16.04 node base image
-
-#### Software Architecture
 This is a basic image of ubuntu 16.04 with node(14.16) installed using nvm, and the basic apt package is embedded.
-
 
 #### Installation tutorial
 

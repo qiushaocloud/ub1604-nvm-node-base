@@ -1,9 +1,6 @@
 # ub1604-nvm-node-base
 
 #### 介绍
-ubuntu 16.04 node 基础镜像
-
-#### 软件架构
 这是一个使用 nvm 安装了 node(14.16) 的 ubuntu 16.04 的基础镜像，内嵌了基础的 apt 包。
 
 
