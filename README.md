@@ -15,6 +15,7 @@
 1.  DockerFile 文件引入此镜像
 2.  docker-compose 单独使用此镜像
 3.  docker run 单独运行此镜像
+4.  dockerHub 已经存在此镜像，可以直接拉取: docker pull qiushaocloud/ub1604-nvm-node-base
 
 #### 参与贡献
 

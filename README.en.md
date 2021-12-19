@@ -14,6 +14,7 @@ This is a basic image of ubuntu 16.04 with node(14.16) installed using nvm, and 
 1. DockerFile file to import this image
 2. docker-compose uses this image alone
 3. docker run runs this image separately
+4. This image already exists in dockerHub, you can pull it directly: docker pull qiushaocloud/ub1604-nvm-node-base
 
 #### Participate in Contribution
 
