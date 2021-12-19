@@ -1,0 +1,21 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  only:
+    - master
+  script:
+    - make build
+  tags:
+    - ubuntu-runner
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - make deploy
+  tags:
+    - ubuntu-runner
