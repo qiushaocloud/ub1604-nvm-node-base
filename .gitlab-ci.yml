@@ -7,7 +7,7 @@ build:
   only:
     - master
   script:
-    - docker build -t qiushaocloud/ub1604-nvm-node-base:latest .
+    - make build
   tags:
     - qiushaocloud-runner
 
@@ -16,6 +16,6 @@ deploy:
   only:
     - master
   script:
-    - docker push qiushaocloud/ub1604-nvm-node-base:latest
+    - make deploy
   tags:
     - qiushaocloud-runner
