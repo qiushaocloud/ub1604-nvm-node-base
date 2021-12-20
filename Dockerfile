@@ -12,7 +12,7 @@ COPY ./etc/nvm/nvm-write-bashrc.sh /root/nvm-write-bashrc.sh
 RUN apt-get update \
     && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
     && echo $TZ > /etc/timezone \
-    && apt-get install -y tzdata curl net-tools psmisc jq unzip vim lrzsz \
+    && apt-get install -y tzdata curl net-tools psmisc jq unzip vim lrzsz make \
     && apt install -y lsof iputils-ping wget telnet \
     && sed -i -e 's/\r$//' /root/nvm-write-bashrc.sh \
     && chmod 755 /root/nvm-write-bashrc.sh \
