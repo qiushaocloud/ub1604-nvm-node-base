@@ -9,7 +9,7 @@ build:
   script:
     - make build
   tags:
-    - ubuntu-runner
+    - qiushaocloud-runner
 
 deploy:
   stage: deploy
@@ -18,4 +18,4 @@ deploy:
   script:
     - make deploy
   tags:
-    - ubuntu-runner
+    - qiushaocloud-runner
