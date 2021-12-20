@@ -7,7 +7,7 @@ build:
   only:
     - master
   script:
-    - make build
+    - docker build -t qiushaocloud/ub1604-nvm-node-base:latest .
   tags:
     - qiushaocloud-runner
 
@@ -16,6 +16,7 @@ deploy:
   only:
     - master
   script:
-    - make deploy
+    - docker login --username qiushaocloud --password LsVQg6J3iEX9GxDLo4W8
+    - docker push qiushaocloud/ub1604-nvm-node-base:latest
   tags:
     - qiushaocloud-runner
