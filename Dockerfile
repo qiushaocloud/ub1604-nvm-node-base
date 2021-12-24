@@ -4,6 +4,9 @@ ENV TZ=Asia/Shanghai
 ENV NODE_VERSION=v14.16.0
 ENV NVM_DIR=/root/.nvm
 ENV NPM_REGISTRY=https://registry.npm.taobao.org
+ENV PATH="/root/.nvm/versions/node/${NODE_VERSION}/bin/:${PATH}"
+ENV NPM_REGISTRY=https://registry.npm.taobao.org
+ENV NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
 COPY ./etc/apt/sources.list /etc/apt/sources.list
 COPY ./etc/nvm/nvm-node.tar.gz /root/nvm-node.tar.gz
