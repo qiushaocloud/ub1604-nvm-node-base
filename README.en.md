@@ -1,33 +1,37 @@
 # ub1604-nvm-node-base
 
+
 #### introduce
-This is a basic image of ubuntu 16.04 with node(14.16) installed using nvm, and the basic apt package is embedded.
+This is a base image of ubuntu 16.04 with nodeJS(14.16) installed using nvm, with basic apt packages embedded.
 
-#### Installation tutorial
 
-1. cd ub1604-nvm-node-base
-2. ./build-docker.sh
-3. docker images view image (qiushaocloud/ub1604-nvm-node-base)
+#### Package docker image in linux environment [If you don't need to modify the code, you can directly pull the open source image: docker pull qiushaocloud/site-counter]
+1. Install the docker environment
+2. Go to the root directory of ub1604-nvm-node-base
+3. Execute ./build-docker.sh
+4. Wait for the image packaging to complete
+
 
 #### Instructions for use
 
-1. DockerFile file to import this image
+1. The DockerFile file introduces this image
 2. docker-compose uses this image alone
-3. docker run runs this image separately
-4. This image already exists in dockerHub, you can pull it directly: docker pull qiushaocloud/ub1604-nvm-node-base
+3. docker run to run this image alone
+4. This image already exists on DockerHub, you can pull it directly: docker pull qiushaocloud/ub1604-nvm-node-base
 
-#### Participate in Contribution
 
-1. Fork this warehouse
-2. Create new Feat_xxx branch
+#### Contribute
+
+1. Fork this repository
+2. Create a new Feat_xxx branch
 3. Submit the code
-4. New Pull Request
+4. Create a new Pull Request
 
 
-#### Sharer information
+#### Open source is not easy, if it is helpful to you, please move your little hand, give the author a star, and please pay more attention to the sharer "[Qiushaocloud.top)"
 
-1. Sharer's email: qiushaocloud@126.com
-2. [Sharer's website](https://www.qiushaocloud.top)
-3. [gitlab built by the sharer](https://www.qiushaocloud.top/gitlab/qiushaocloud)
-3. [Sharer gitee](https://gitee.com/qiushaocloud/dashboard/projects)
-3. [Sharer github](https://github.com/qiushaocloud?tab=repositories)
+* Sharer Email: [qiushaocloud@126.com](mailto:qiushaocloud@126.com)
+* [Sharer Blog](https://www.qiushaocloud.top)
+* [gitlab built by the sharer himself](https://www.qiushaocloud.top/gitlab/qiushaocloud)
+* [Shared by gitee](https://gitee.com/qiushaocloud/dashboard/projects)
+* [Shared by github](https://github.com/qiushaocloud?tab=repositories)

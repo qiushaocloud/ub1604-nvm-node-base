@@ -29,4 +29,5 @@ RUN apt-get update \
     && npm config set registry ${NPM_REGISTRY} \
     && rm -rf /root/nvm-node.tar.gz \
     && rm -rf /root/nvm-write-bashrc.sh \
+    && 'echo ":set encoding=utf-8" >> /root/.vimrc' \
     && apt-get update
