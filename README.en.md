@@ -32,6 +32,6 @@ This is a base image of ubuntu 16.04 with nodeJS(14.16) installed using nvm, wit
 
 * Sharer Email: [qiushaocloud@126.com](mailto:qiushaocloud@126.com)
 * [Sharer Blog](https://www.qiushaocloud.top)
-* [gitlab built by the sharer himself](https://www.qiushaocloud.top/gitlab/qiushaocloud)
+* [gitlab built by the sharer himself](https://gitlab.qiushaocloud.top/qiushaocloud)
 * [Shared by gitee](https://gitee.com/qiushaocloud/dashboard/projects)
 * [Shared by github](https://github.com/qiushaocloud?tab=repositories)
