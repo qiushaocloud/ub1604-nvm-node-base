@@ -5,7 +5,7 @@
 This is a base image of ubuntu 16.04 with nodeJS(14.16) installed using nvm, with basic apt packages embedded.
 
 
-#### Package docker image in linux environment [If you don't need to modify the code, you can directly pull the open source image: docker pull qiushaocloud/site-counter]
+#### Package docker image in linux environment [If you don't need to modify the code, you can directly pull the open source image: docker pull qiushaocloud/ub1604-nvm-node-base]
 1. Install the docker environment
 2. Go to the root directory of ub1604-nvm-node-base
 3. Execute ./build-docker.sh
