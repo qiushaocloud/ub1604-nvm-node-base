@@ -5,7 +5,7 @@
 这是一个使用 nvm 安装了 nodeJS(14.16) 的 ubuntu 16.04 的基础镜像，内嵌了基础的 apt 包。
 
 
-#### linux 环境下打包 docker 镜像【您如果不需要修改代码，可以直接拉取开源镜像: docker pull qiushaocloud/site-counter】
+#### linux 环境下打包 docker 镜像【您如果不需要修改代码，可以直接拉取开源镜像: docker pull qiushaocloud/ub1604-nvm-node-base】
 1. 安装好 docker 环境
 2. 进入 ub1604-nvm-node-base 根目录
 3. 执行 ./build-docker.sh
