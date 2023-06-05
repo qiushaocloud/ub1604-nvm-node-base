@@ -3,7 +3,6 @@ FROM ubuntu:16.04
 ENV TZ=Asia/Shanghai
 ENV NODE_VERSION=v14.16.0
 ENV NVM_DIR=/root/.nvm
-ENV NPM_REGISTRY=https://registry.npm.taobao.org
 ENV PATH="/root/.nvm/versions/node/${NODE_VERSION}/bin/:${PATH}"
 ENV NPM_REGISTRY=https://registry.npm.taobao.org
 ENV NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
@@ -21,7 +20,7 @@ RUN apt-get update \
     && chmod 755 /root/nvm-write-bashrc.sh \
     && cd /root \
     && tar -zxvf /root/nvm-node.tar.gz \
-    && /root/nvm-write-bashrc.sh \
+    && bash /root/nvm-write-bashrc.sh \
     && . "$NVM_DIR/nvm.sh" \
     && nvm install ${NODE_VERSION} \
     && nvm use ${NODE_VERSION} \
